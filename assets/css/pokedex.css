@@ -82,7 +82,6 @@
     display: flex;
     flex-direction: column;
     margin: .5rem;
-    padding: 1rem;
     border-radius: 1rem;
 }
 
@@ -96,7 +95,6 @@
 .pokemon .name {
     text-transform: capitalize;
     color: #fff;
-    margin-bottom: .25rem;
 }
 
 .pokemon .detail {
@@ -104,6 +102,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 20px;
 }
 
 .pokemon .detail .types {
@@ -144,6 +143,41 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.about .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 14px 20px;
+}
+
+.title {
+    color: #666666;
+}
+
+.value {
+    text-transform: capitalize;
+}
+
+.details {
+    background-color: white;
+    font-size: 14px;
+    margin: 10px;
+    font-weight: 300;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.pokemon_title {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.details h3 {
+    color: #303030;
+    padding: 20px 0px 0px 20px;
 }
 
 @media screen and (min-width: 380px) {
